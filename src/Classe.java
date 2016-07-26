@@ -1,6 +1,6 @@
 
 public abstract class Classe {
-	private String nome;
+	protected String nome;
 	protected int agil,forca,intel;
 	Habilidade[] habilidades;
 
