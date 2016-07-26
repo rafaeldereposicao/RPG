@@ -4,11 +4,12 @@ public class Personagem {
 	private int nivel, cash, pe, pv, pm;
 	Classe classe;
 	
-	public Personagem(){
+	public Personagem(String nome, int tipo){
 		this.setNome(nome);
 		this.setDescricao(descricao);
 		this.nivel = 1;
 		this.cash = 0;
+		this.setClasse(tipo);
 	}
 	
 	//NOME----------------------------------------------------------------
@@ -80,6 +81,11 @@ public class Personagem {
 		return pm;
 	}
 	//---------------------------------------------------------------------
-
+	public void setClasse(int tipo){
+		switch(tipo){
+			case 1: this.classe = new Guerreiro();
+				break;
+		}
+	}
 }
 
