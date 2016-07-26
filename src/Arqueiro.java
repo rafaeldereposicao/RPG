@@ -1,4 +1,4 @@
-
+//teste
 public class Arqueiro extends Classe {	
 	//AGIL,FORCA,INTEL
 	public Arqueiro(Personagem p){
