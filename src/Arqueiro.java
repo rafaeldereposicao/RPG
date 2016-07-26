@@ -1,9 +1,9 @@
-
+//teste
 public class Arqueiro extends Classe {	
 	//AGIL,FORCA,INTEL
 	public Arqueiro(Personagem p){
 		
-		//ANOTAÇÕES IMPORTANTES**********************************
+		//ANOTAÃ‡Ã•ES IMPORTANTES**********************************
 		//ORDEM DE PREENCHIMENTO /AGILIDADE,FORCA,INTELIGENCIA
 		//ALVO | TRUE = ALVO UNICO | FALSE = TOOS OS ALVOS
 		//HABILIDADES DO ARQUEIRO
