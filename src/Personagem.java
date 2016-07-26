@@ -1,4 +1,4 @@
-
+//TESTE
 public class Personagem {
 	private String nome, descricao;
 	private int nivel, cash, pe, pv, pm;
@@ -51,7 +51,7 @@ public class Personagem {
 	}
 	//---------------------------------------------------------------------
 	
-	//PONTO DE EXPERIÊNCIA----------------------------------------------------------------
+	//PONTO DE EXPERIÃŠNCIA----------------------------------------------------------------
 	public void setPe(int pe){
 		this.pe = pe;
 	}
